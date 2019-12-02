@@ -1,0 +1,9 @@
+-- lab4
+
+CREATE OR REPLACE VIEW Q1(nacc)
+AS
+	select num,
+	from access,
+	where access.acctime ~ "^\d{4}-03-02"
+;
+
